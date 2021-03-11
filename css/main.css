@@ -48,3 +48,141 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* My new CSS content added below this point */
+
+header {
+	width: 1024px;
+	height: 341px;
+	overflow: hidden;
+	background-color: #d4e9e7;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/* The navbar container */
+.topnav {
+	overflow: hidden;
+	padding-top: 5px;
+	padding-left: 20px;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+	text-align: center;
+	color: black;
+	padding: 125px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  }
+
+main {
+	width: 1024px;
+	height: 725px;
+	overflow: hidden;
+	background-color: #d4e9e7;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+footer {
+	width: 1004px;
+	height: 50px;
+	overflow: hidden;
+	background-color: #d4e9e7;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: right;
+	font-size: 10px;
+	padding-right: 20px;
+}
+
+/* Comments... I love comments!  LOL  }:-) */
+
+body {
+	background-color: #aad4cf;
+}
+
+header img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+header h1 {
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 210px;
+}
+
+article {
+	background-color: #d4e9e7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+	/* Effective width must equal 1024 px. Therefore, using 2024px - 20px - 20px = 984px (plus border to match above). */
+	width: 984px;
+	line-height: 19px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+h2 {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+article img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+li {
+    font-size: 8px;
+    margin-left: 2px;
+    list-style-type: disc;
+ }
+
+ /* Form-related sections */
+
+form {
+	font-size: 12px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: black;
+	margin: 5px;
+	padding: 10px;
+	padding-top: 15px;
+ }
+ 
+
+input[type=text] {
+	width: 85%;
+	padding: 12px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	padding: 12px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
